@@ -29,7 +29,7 @@ header {
 #home img{
     align-items: center;
     justify-content: center;
-    width: 300px;
+    width: 390px;
     height:auto;
     border-radius: 30px;
     display:block;
@@ -39,14 +39,29 @@ header {
         align-items: center;
     }
     #artigos{
+        display: flex;
+        
         background-color:rgb(70, 70, 70);
+        justify-content: center;
+        align-items: center;
+      
       
     }
 
-    div nav ul a{
+    nav ul{
+         list-style: none;
+         gap:80px;
+         display:flex;
+         align-items: center;
+         padding: 40px;
+    }
+
+    div nav ul li a{
+        
         text-decoration: none;
         color:white;
-     
+        display:inline-block;
+        font-size: 30px;
     }
    
 
