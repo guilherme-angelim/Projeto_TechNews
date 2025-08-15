@@ -41,7 +41,7 @@ header {
     #artigos{
         display: flex;
         
-        background-color:rgb(70, 70, 70);
+        background-color:rgba(70, 70, 70, 0.5);
         justify-content: center;
         align-items: center;
       
@@ -74,3 +74,184 @@ body{
     display:flex;
     flex-direction:column;
 }
+
+body{
+    background: url(../assets/FUNDO.png) no-repeat  center center fixed;
+    background-size: cover;
+    text-align: left;
+    color:white;
+}
+
+#ia {
+    display: inline-block;
+    transition: transform 0.3s ease, color 0.3s ease;
+}
+
+#ia:hover{
+    color:rgb(0, 47, 255);
+    transform: scale(1.20);
+}
+
+#games {
+    display: inline-block;
+    transition: transform 0.3s ease, color 0.3s ease;
+}
+
+#games:hover{
+    color:rgb(0, 47, 255);
+    transform: scale(1.20);
+}
+
+#geral {
+    display: inline-block;
+    transition: transform 0.3s ease, color 0.3s ease;
+}
+
+#geral:hover{
+   color:rgb(0, 47, 255);
+    transform: scale(1.20);
+}
+
+#hardwares {
+    display: inline-block;
+    transition: transform 0.3s ease, color 0.3s ease;
+}
+
+#hardwares:hover{
+    color:rgb(0, 47, 255);
+    transform: scale(1.20);
+}
+
+#bigtechs {
+    display: inline-block;
+    transition: transform 0.3s ease, color 0.3s ease;
+}
+
+#bigtechs:hover{
+    color:rgb(0, 47, 255);
+    transform: scale(1.20);
+}
+
+#container {
+    margin-top: 100px;
+    padding:30px;
+    align-items: left;
+    text-align: left;
+
+}
+
+
+
+h1{
+    font-size: 100px;
+    margin-bottom: 30px;
+    color: white;
+    text-align: center;
+}
+h1 span{
+    color:rgb(0, 195, 255);
+}
+
+#intro{
+    font-size:25px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+#topo{
+    width: 700px;
+    margin-bottom: 30px;
+    display: flex;
+    margin: 0 auto 30px auto;
+}
+
+
+
+.sub {
+    margin-bottom: 20px;
+    font-size: 3rem;
+}
+
+.desen {
+    margin-bottom: 30px;
+    font-size: 20px;
+}
+
+.li {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+#potencial{
+    width: 500px;
+    display: flex;
+    margin: 0 auto 30px auto;
+}
+
+#conclusao {
+    width: 500px;
+    display: flex;
+    margin: 0 auto 30px auto;
+}
+
+footer{
+    background-color: #00013c;
+    display: flex;
+    align-items: center;   
+    justify-content: center;
+    padding:20px;
+}
+#redes{
+    display: flex;
+    align-items: center;   
+    justify-content: center;
+    padding:20px;
+}
+
+#redes img{
+    height: auto;
+    width: 80px;
+    margin:0 20px;
+}
+
+#direitos{
+    display: flex;
+    align-items: center;   
+    justify-content: center;
+    font-size:20px;
+}
+#zap{
+        display: inline-block;
+    transition: transform 0.3s ease, color 0.3s ease;
+}
+
+#zap:hover{
+    
+    transform: scale(1.20);
+}
+
+#gmail{
+        display: inline-block;
+    transition: transform 0.3s ease, color 0.3s ease;
+}
+
+#gmail:hover{
+    
+    transform: scale(1.20);
+}
+
+#insta{
+        display: inline-block;
+    transition: transform 0.3s ease, color 0.3s ease;
+}
+
+#insta:hover{
+ 
+    transform: scale(1.20);
+}
+
+#face{
+        display: inline-block;
+    transition: transform 0.3s ease, color 0.3s ease;
+}
+
